@@ -27,6 +27,11 @@ clientes.Productos.Add(new Clientes() { Id_cliente = 1000567155, Nombre_cliente 
 
 Console.WriteLine(producto.Nombre);
 Console.WriteLine(producto.Categoria.Nombre);
+Console.WriteLine(clientes.Productos[1].Nombre_cliente);
+Console.WriteLine(clientes.Productos[1].Direccion_cliente);
+Console.WriteLine(clientes.Productos[1].Telefono_cliente);
+
+
 
 
 foreach (var elemento in producto.Proveedores)
